@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  transition: background 0.5s ease;
+}
+
+#quote-box {
+  width: 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#text {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+#author {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button, a {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background: #3498db;
+}
+
+button:hover, a:hover {
+  opacity: 0.8;
+}
