@@ -31,8 +31,6 @@ function setQuote() {
   )}`;
 }
 
-// أول تحميل
 setQuote();
 
-// زر اقتباس جديد
 newQuoteBtn.addEventListener("click", setQuote);
